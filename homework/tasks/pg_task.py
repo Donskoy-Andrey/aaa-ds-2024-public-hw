@@ -42,7 +42,7 @@ class ItemStorage:
                 item_id SERIAL PRIMARY KEY,
                 user_id INTEGER NOT NULL,
                 title TEXT NOT NULL,
-                description TEXT NOT NULL,  
+                description TEXT NOT NULL
             );    
         """)
 
